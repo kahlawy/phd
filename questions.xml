@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- ================= STORAGE (1–25) ================= -->
+
+<question id="1" topic="Storage" difficulty="Easy">
+  <text>Which storage type is directly attached to a physical server?</text>
+  <option key="A" correct="false">NAS</option>
+  <option key="B" correct="false">SAN</option>
+  <option key="C" correct="true">Local storage</option>
+  <option key="D" correct="false">IP SAN</option>
+  <explanation>Local storage is physically attached to the server and not shared.</explanation>
+</question>
+
+<question id="2" topic="Storage" difficulty="Easy">
+  <text>Which storage protocol is commonly used by NAS?</text>
+  <option key="A" correct="false">iSCSI</option>
+  <option key="B" correct="true">NFS</option>
+  <option key="C" correct="false">Fibre Channel</option>
+  <option key="D" correct="false">FCoE</option>
+  <explanation>NAS uses file-level protocols such as NFS or SMB.</explanation>
+</question>
+
+<question id="3" topic="Storage" difficulty="Easy">
+  <text>Which storage provides block-level access?</text>
+  <option key="A" correct="false">NAS</option>
+  <option key="B" correct="true">SAN</option>
+  <option key="C" correct="false">SMB</option>
+  <option key="D" correct="false">NFS</option>
+  <explanation>SAN exposes block devices (LUNs) to hosts.</explanation>
+</question>
+
+<question id="4" topic="Storage" difficulty="Medium">
+  <text>Why is shared storage required for live VM migration?</text>
+  <option key="A" correct="false">To increase CPU speed</option>
+  <option key="B" correct="true">To allow multiple hosts to access VM disks</option>
+  <option key="C" correct="false">To reduce network latency</option>
+  <option key="D" correct="false">To enable VLAN tagging</option>
+  <explanation>Live migration requires VM disk files to be accessible by all hosts.</explanation>
+</question>
+
+<question id="5" topic="Storage" difficulty="Medium">
+  <text>What is thin provisioning?</text>
+  <option key="A" correct="false">Allocating full disk space immediately</option>
+  <option key="B" correct="true">Allocating storage space on demand</option>
+  <option key="C" correct="false">Encrypting storage</option>
+  <option key="D" correct="false">Replicating disks</option>
+  <explanation>Thin provisioning improves storage utilization by allocating space only when needed.</explanation>
+</question>
+
+<!-- ================= NETWORK (26–50) ================= -->
+
+<question id="26" topic="Network" difficulty="Easy">
+  <text>At which OSI layer do VLANs operate?</text>
+  <option key="A" correct="false">Layer 1</option>
+  <option key="B" correct="true">Layer 2</option>
+  <option key="C" correct="false">Layer 3</option>
+  <option key="D" correct="false">Layer 4</option>
+  <explanation>VLANs logically segment broadcast domains at Layer 2.</explanation>
+</question>
+
+<question id="27" topic="Network" difficulty="Easy">
+  <text>Which link type carries traffic for multiple VLANs?</text>
+  <option key="A" correct="false">Access</option>
+  <option key="B" correct="true">Trunk</option>
+  <option key="C" correct="false">Loopback</option>
+  <option key="D" correct="false">Management</option>
+  <explanation>Trunk links use VLAN tagging to carry multiple VLANs.</explanation>
+</question>
+
+<question id="28" topic="Network" difficulty="Medium">
+  <text>What is the main benefit of using VLANs?</text>
+  <option key="A" correct="false">Increase disk performance</option>
+  <option key="B" correct="true">Reduce broadcast traffic</option>
+  <option key="C" correct="false">Increase CPU speed</option>
+  <option key="D" correct="false">Eliminate routing</option>
+  <explanation>VLANs reduce broadcast domains and improve network efficiency.</explanation>
+</question>
+
+<question id="29" topic="Network" difficulty="Medium">
+  <text>Which vSwitch type supports centralized management?</text>
+  <option key="A" correct="false">Standard vSwitch</option>
+  <option key="B" correct="true">Distributed vSwitch</option>
+  <option key="C" correct="false">Virtual Router</option>
+  <option key="D" correct="false">Physical Switch</option>
+  <explanation>DVS provides centralized configuration across multiple hosts.</explanation>
+</question>
+
+<question id="30" topic="Network" difficulty="Hard">
+  <text>Why is traffic shaping important in multi-tenant environments?</text>
+  <option key="A" correct="false">To prevent VLAN hopping</option>
+  <option key="B" correct="true">To ensure fair bandwidth allocation</option>
+  <option key="C" correct="false">To replace routing</option>
+  <option key="D" correct="false">To eliminate broadcasts</option>
+  <explanation>Traffic shaping prevents one VM from consuming all bandwidth.</explanation>
+</question>
+
+<!-- ================= VMs & Templates (51–75) ================= -->
+
+<question id="51" topic="VMs/Templates" difficulty="Easy">
+  <text>What is the main purpose of a VM template?</text>
+  <option key="A" correct="false">Backup storage</option>
+  <option key="B" correct="true">Rapid VM deployment</option>
+  <option key="C" correct="false">Network isolation</option>
+  <option key="D" correct="false">Disk replication</option>
+  <explanation>Templates allow fast and consistent VM creation.</explanation>
+</question>
+
+<question id="52" topic="VMs/Templates" difficulty="Medium">
+  <text>Which feature saves the state of a VM at a specific time?</text>
+  <option key="A" correct="false">Clone</option>
+  <option key="B" correct="true">Snapshot</option>
+  <option key="C" correct="false">Template</option>
+  <option key="D" correct="false">Migration</option>
+  <explanation>Snapshots capture VM state for rollback.</explanation>
+</question>
+
+<question id="53" topic="VMs/Templates" difficulty="Hard">
+  <text>Which VM Tools function improves time synchronization?</text>
+  <option key="A" correct="false">CPU scheduling</option>
+  <option key="B" correct="true">Guest time sync</option>
+  <option key="C" correct="false">Disk encryption</option>
+  <option key="D" correct="false">Network routing</option>
+  <explanation>VM Tools synchronizes guest OS time with the host.</explanation>
+</question>
+
+<!-- ================= KVM / XEN (76–100) ================= -->
+
+<question id="76" topic="KVM/QEMU" difficulty="Easy">
+  <text>What does KVM stand for?</text>
+  <option key="A" correct="false">Kernel Virtual Memory</option>
+  <option key="B" correct="true">Kernel-based Virtual Machine</option>
+  <option key="C" correct="false">Kernel VM Manager</option>
+  <option key="D" correct="false">Kernel Virtual Module</option>
+  <explanation>KVM is a Linux kernel module for virtualization.</explanation>
+</question>
+
+<question id="77" topic="KVM/QEMU" difficulty="Medium">
+  <text>What is the role of QEMU in KVM virtualization?</text>
+  <option key="A" correct="false">CPU scheduling</option>
+  <option key="B" correct="true">Hardware emulation</option>
+  <option key="C" correct="false">Network routing</option>
+  <option key="D" correct="false">Storage replication</option>
+  <explanation>QEMU emulates virtual hardware devices.</explanation>
+</question>
+
+<question id="78" topic="Xen" difficulty="Medium">
+  <text>Which Xen component manages VM lifecycle operations?</text>
+  <option key="A" correct="false">DomU</option>
+  <option key="B" correct="true">Control API</option>
+  <option key="C" correct="false">Hypercall</option>
+  <option key="D" correct="false">Scheduler</option>
+  <explanation>Xen Control API manages VM creation and control.</explanation>
+</question>
+
+<question id="79" topic="Xen" difficulty="Hard">
+  <text>What is Dom0 in Xen architecture?</text>
+  <option key="A" correct="false">A user VM</option>
+  <option key="B" correct="true">The privileged management domain</option>
+  <option key="C" correct="false">A virtual switch</option>
+  <option key="D" correct="false">A storage backend</option>
+  <explanation>Dom0 has direct access to hardware and manages DomU VMs.</explanation>
+</question>
+
+</quiz>
