@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Virtualization Exam (100 MCQs)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <h1>Virtualization Exam (100 MCQs)</h1>
+      <p class="subtitle">Storage • Network • VMs/Templates • KVM • Xen</p>
+
+      <div class="actions">
+        <button id="btnExpandAll" class="btn btn-secondary" type="button">Expand all</button>
+        <button id="btnCollapseAll" class="btn btn-secondary" type="button">Collapse all</button>
+        <button id="btnRetry" class="btn btn-secondary" type="button" disabled>Retry</button>
+        <button id="btnSubmit" class="btn btn-primary" type="button">Submit</button>
+      </div>
+
+      <div class="status">
+        <div class="pill" id="answeredPill">Answered: 0 / 100</div>
+        <div class="pill" id="timerPill" title="Optional timer">Timer: Off</div>
+        <label class="toggle">
+          <input id="timerToggle" type="checkbox" />
+          <span>Enable 60 min timer</span>
+        </label>
+      </div>
+
+      <div id="resultBox" class="result hidden" role="status" aria-live="polite"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="toolbar">
+      <input id="searchInput" type="search" placeholder="Search questions (e.g., VLAN, SAN, KVM, template)..." />
+      <select id="filterSelect">
+        <option value="ALL">All topics</option>
+        <option value="STORAGE">Storage</option>
+        <option value="NETWORK">Network</option>
+        <option value="VMS">VMs/Templates</option>
+        <option value="KVM">KVM/QEMU</option>
+        <option value="XEN">Xen</option>
+      </select>
+      <select id="difficultySelect">
+        <option value="ALL">All difficulty</option>
+        <option value="EASY">Easy</option>
+        <option value="MEDIUM">Medium</option>
+        <option value="HARD">Hard</option>
+      </select>
+    </div>
+
+    <div id="quiz"></div>
+    <footer class="footer">
+      <p>Built for GitHub Pages • Vanilla HTML/CSS/JS</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
