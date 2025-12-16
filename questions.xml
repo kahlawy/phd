@@ -2,9 +2,9 @@
 <quiz>
   <question id="1" topic="SAN" difficulty="Medium">
     <text>In the single-switching mode of IP SAN networking, what allows multiple hosts to share the same storage device?</text>
-    <option key="A" correct="false">SCSIHBA cards</option>
+    <option key="A" correct="true">SCSI HBA cards</option>
     <option key="B" correct="false">Direct connections</option>
-    <option key="C" correct="true">Ethernet switch</option>
+    <option key="C" correct="false">Ethernet switch</option>
     <option key="D" correct="false">Ethernet cards</option>
     <explanation>Extracted from: mid-2.pdf page 1</explanation>
   </question>
@@ -249,15 +249,15 @@
     <explanation>Extracted from: Quiz 02 - Real.docx word/media/image1.png (Correct option not detected.)</explanation>
   </question>
   <question id="32" topic="Mixed" difficulty="Medium">
-    <text>What aoes Qos stand Tor In the context of Cloud computing?</text>
-    <option key="A" correct="true">eo) Quality of Service</option>
+    <text>What does Qos stand For In the context of Cloud computing?</text>
+    <option key="A" correct="true">Quality of Service</option>
     <option key="B" correct="false">Query of Snapshots</option>
     <option key="C" correct="false">Quick Operation System</option>
     <option key="D" correct="false">Quota of Synchronization</option>
     <explanation>Extracted from: Quiz 02 - Real.docx word/media/image2.png (Correct option not detected.)</explanation>
   </question>
   <question id="33" topic="VMs" difficulty="Medium">
-    <text>which of tne rolowing methoas Is the most common method Tor creating VMS £</text>
+    <text> Which of tne rolowing methoas Is the most common method for creating VMS £</text>
     <option key="A" correct="true">Clonea VMtoa VM.</option>
     <option key="B" correct="false">Create a bare VM.</option>
     <option key="C" correct="false">Create an using a VM template.</option>
@@ -268,8 +268,8 @@
     <text>ee eee eee eee NT INE NT AE EIN ANE EERIE ES Ne Incompatible Migration Cluster (IMC) function enabled,</text>
     <option key="A" correct="false">None of them.</option>
     <option key="B" correct="false">there is no CPU constraint.</option>
-    <option key="C" correct="false">the VM CPU configuration must be higher than the CPU function set of the destination cluster.</option>
-    <option key="D" correct="true">the VM CPU configuration must be lower than the CPU function set of the destination cluster.</option>
+    <option key="C" correct="false"> The VM CPU configuration must be higher than the CPU function set of the destination cluster.</option>
+    <option key="D" correct="true"> The VM CPU configuration must be lower than the CPU function set of the destination cluster.</option>
     <explanation>Extracted from: Quiz 02 - Real.docx word/media/image5.png (Correct option not detected.)</explanation>
   </question>
   <question id="35" topic="Mixed" difficulty="Medium">
@@ -289,7 +289,7 @@
     <explanation>Extracted from: Quiz 02 - Real.docx word/media/image9.png (Correct option not detected.)</explanation>
   </question>
   <question id="37" topic="VMs" difficulty="Medium">
-    <text>What is the significance of VMs being In the same port group on allferent hosts?</text>
+    <text>What is the significance of VMs being in the same port group on allferent hosts?</text>
     <option key="A" correct="false">They communicate directly without using physical switches</option>
     <option key="B" correct="true">They communicate through physical switches te _</option>
     <option key="C" correct="false">They require a dedicated VLAN for communication</option>
