@@ -432,28 +432,20 @@
     <option key="D" correct="false">none of the above.</option>
     <explanation></explanation>
   </question>
-  <question id="66" topic="Mixed" difficulty="Medium">
+  <question id="57" topic="Mixed" difficulty="Medium">
     <text>All of the following are storage units that can be encapsulated into data stores except Is</text>
     <option key="A" correct="false">None of the above</option>
     <option key="B" correct="false">File systems on the NAS</option>
-    <option key="C" correct="true">LUNs on theiScsi</option>
+    <option key="C" correct="true">LUNs on the iSCSI</option>
     <option key="D" correct="false">Local disks on hosts</option>
-    <explanation>Extracted from: Quiz 02 - Real.docx word/media/image57.png</explanation>
+    <explanation></explanation>
   </question>
-  <question id="67" topic="Mixed" difficulty="Medium">
-    <text>What is one of theproblems caused by Layer 2 broadcasts?</text>
+  <question id="58" topic="Mixed" difficulty="Medium">
+    <text>What is one of the problems caused by Layer 2 broadcasts?</text>
     <option key="A" correct="true">Reduced information security</option>
     <option key="B" correct="false">Reduced network latency</option>
     <option key="C" correct="false">Improved information security</option>
     <option key="D" correct="false">Enhanced network performance</option>
-    <explanation>Extracted from: Quiz 02 - Real.docx word/media/image59.png (Correct option not detected.)</explanation>
-  </question>
-  <question id="68" topic="Mixed" difficulty="Medium">
-    <text>what Is one of the problems caused by Layer 2 broadcasts ¢</text>
-    <option key="A" correct="true">Reduced information security —_—_—_</option>
-    <option key="B" correct="false">Reduced network latency</option>
-    <option key="C" correct="false">Improved information gacurity</option>
-    <option key="D" correct="false">Enhanced network performance</option>
-    <explanation>Extracted from: Quiz 02 - Real.docx word/media/image60.png (Correct option not detected.)</explanation>
+    <explanation></explanation>
   </question>
 </quiz>
