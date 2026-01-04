@@ -108,8 +108,8 @@
     <text>Which of the following obtains CPUs and memory resources from the host?</text>
     <option key="A" correct="false">VM template.</option>
     <option key="B" correct="false">None of them.</option>
-    <option key="C" correct="true">VM and VM template.</option>
-    <option key="D" correct="false">VM.</option>
+    <option key="C" correct="false">VM and VM template.</option>
+    <option key="D" correct="true">VM.</option>
     <explanation></explanation>
   </question>
   <question id="16" topic="VLAN" difficulty="Medium">
