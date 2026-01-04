@@ -137,7 +137,7 @@
     <explanation></explanation>
   </question>
   <question id="19" topic="VMs" difficulty="Medium">
-    <text>Three VMs (A, B, and C) run on ahost that uses a Dual-core 2.8 GHz physical CPU. Their quotas are set to 1000, 2000, and 1000, respectively. When the CPU workloads of the VMs are heavy, VM A can obtain a computing capabllity of</text>
+    <text>Three VMs (A, B, and C) run on ahost that uses a Dual-core 2.8 GHz physical CPU. Their quotas are set to 1000, 2000, and 4000, respectively. When the CPU workloads of the VMs are heavy, VM A can obtain a computing capabllity of</text>
     <option key="A" correct="false">1600 MHz.</option>
     <option key="B" correct="true">800 MHz.</option>
     <option key="C" correct="false">None of them</option>
