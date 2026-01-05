@@ -388,8 +388,8 @@
     <text>All of the following are storage units that can be encapsulated into data stores except</text>
     <option key="A" correct="false">Local disks on hosts</option>
     <option key="B" correct="false">Storage poolon FusionStorage</option>
-    <option key="C" correct="false">None of the above</option>
-    <option key="D" correct="true">Local memory on hosts</option>
+    <option key="C" correct="true">None of the above</option>
+    <option key="D" correct="false">Local memory on hosts</option>
     <explanation></explanation>
   </question>
   <question id="51" topic="Mixed" difficulty="Medium">
