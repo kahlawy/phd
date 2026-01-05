@@ -28,8 +28,8 @@
     <text>Three VMs (A, B, and C) run on ahost that uses a single-core 2.8 GHz physical CPU. Their quotas are set to 1000, 2000, and 4000, respectively. The reserved attribute of VM B is set to 900 MHzWhen the CPU workloads of the VMs are heavy, VM A. can obtain a computing capability of</text>
     <option key="A" correct="false">1520 MHz.</option>
     <option key="B" correct="false">900 MHz.</option>
-    <option key="C" correct="true">None of them.</option>
-    <option key="D" correct="false">380 MHz.</option>
+    <option key="C" correct="false">None of them.</option>
+    <option key="D" correct="true">380 MHz.</option>
     <explanation></explanation>
   </question>
   <question id="6" topic="Network" difficulty="Medium">
