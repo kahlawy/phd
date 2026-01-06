@@ -298,9 +298,9 @@
   </question>
   <question id="39" topic="VMs" difficulty="Medium">
     <text>Three VMs (A, B, and C) run on a host that uses a single-core 2.8 GHz physical CPU. Their quotas are set to 1000, 2000, and 4000, respectively. The limit attribute of VM C is set to 1000 MHz. When the CPU workloads of the VMs are heavy, VM B can obtain a computing capability of:</text>
-    <option key="A" correct="true">None of them.</option>
+    <option key="A" correct="false">None of them.</option>
     <option key="B" correct="false">600 MHz.</option>
-    <option key="C" correct="false">1200 MHz.</option>
+    <option key="C" correct="true">1200 MHz.</option>
     <option key="D" correct="false">1000 MHz.</option>
     <explanation></explanation>
   </question>
