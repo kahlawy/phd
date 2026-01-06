@@ -153,7 +153,7 @@
     <explanation></explanation>
   </question>
   <question id="21" topic="VLAN" difficulty="Medium">
-    <text>What is the common characteristic of frames transmitted on an access linkin a VLAN?</text>
+    <text>What is the common characteristic of frames transmitted on an access link in a VLAN?</text>
     <option key="A" correct="false">Tagged frames</option>
     <option key="B" correct="false">Broadcast frames</option>
     <option key="C" correct="true">untagged frames</option>
