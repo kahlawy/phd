@@ -1,5 +1,4 @@
 <quiz>
-  <!-- Quiz1 (Extracted from Quiz1-Sample_01-Answers.pdf) -->
   <question id="1" topic="Software Project Management" difficulty="Easy">
     <text>What is the core definition of software project management, as per the sources?</text>
     <option key="A" correct="false">Writing efficient and error-free code.</option>
@@ -19,7 +18,7 @@
   </question>
 
   <question id="3" topic="Requirements" difficulty="Medium">
-    <text>In the "Stepwise Project Planning" model presented in the sources, which step comes immediately AFTER "Identify project scope and objectives"?</text>
+    <text>In the Stepwise Project Planning model, which step comes immediately after identifying project scope and objectives?</text>
     <option key="A" correct="true">Analyse project characteristics</option>
     <option key="B" correct="false">Identify project products and activities</option>
     <option key="C" correct="false">Identify project infrastructure</option>
@@ -28,139 +27,102 @@
   </question>
 
   <question id="4" topic="Requirements" difficulty="Easy">
-    <text>The process of collecting requirements for the proposed application during a feasibility study for a software project is generally uncomplicated.</text>
+    <text>The process of collecting requirements during a feasibility study for a software project is generally uncomplicated.</text>
     <option key="A" correct="false">True</option>
     <option key="B" correct="true">False</option>
+    <option key="C" correct="false">Not given</option>
+    <option key="D" correct="false">Depends on project size only</option>
     <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
   </question>
 
   <question id="5" topic="Fuzzy Logic" difficulty="Easy">
     <text>What is the fundamental difference between fuzzy logic and traditional logic?</text>
-    <option key="A" correct="true">Fuzzy logic accommodates partial truth values, while traditional logic operates with absolute truth or falsehood.</option>
-    <option key="B" correct="false">Fuzzy logic is only applicable to complex scientific problems.</option>
-    <option key="C" correct="false">Fuzzy logic relies solely on numerical data.</option>
-    <option key="D" correct="false">Fuzzy logic was developed for early computing systems.</option>
+    <option key="A" correct="true">Fuzzy logic allows partial truth values, while traditional logic uses absolute truth values.</option>
+    <option key="B" correct="false">Fuzzy logic is limited to scientific research only.</option>
+    <option key="C" correct="false">Fuzzy logic operates only on numerical data.</option>
+    <option key="D" correct="false">Fuzzy logic was created before classical logic.</option>
     <explanation>Answer taken from Quiz1 PDF (selected option A).</explanation>
   </question>
 
   <question id="6" topic="Fuzzy Logic" difficulty="Easy">
-    <text>In the context of fuzzy logic, what is the purpose of a "membership function"?</text>
-    <option key="A" correct="false">To define the boundaries of a traditional set.</option>
-    <option key="B" correct="false">To represent the relationships between data tables.</option>
-    <option key="C" correct="true">To map an element to its degree of membership in a fuzzy set.</option>
-    <option key="D" correct="false">To establish the order of execution.</option>
+    <text>What is the purpose of a membership function in fuzzy logic?</text>
+    <option key="A" correct="false">To define crisp set boundaries</option>
+    <option key="B" correct="false">To store fuzzy rules</option>
+    <option key="C" correct="true">To map elements to degrees of membership</option>
+    <option key="D" correct="false">To control program execution flow</option>
     <explanation>Answer taken from Quiz1 PDF (selected option C).</explanation>
   </question>
 
   <question id="7" topic="Fuzzy Logic" difficulty="Easy">
-    <text>What distinguishes "linguistic variables" in fuzzy logic?</text>
-    <option key="A" correct="false">They are always represented using precise numerical values.</option>
-    <option key="B" correct="false">They are exclusive to specialized applications.</option>
-    <option key="C" correct="true">They are expressed using words or phrases, rather than exact numbers, to describe qualities or conditions.</option>
-    <option key="D" correct="false">They are rarely used in modern systems.</option>
+    <text>What characterizes linguistic variables in fuzzy logic?</text>
+    <option key="A" correct="false">They are always numerical</option>
+    <option key="B" correct="false">They are limited to expert systems only</option>
+    <option key="C" correct="true">They use words or phrases to represent values</option>
+    <option key="D" correct="false">They are obsolete in modern systems</option>
     <explanation>Answer taken from Quiz1 PDF (selected option C).</explanation>
   </question>
 
   <question id="8" topic="Fuzzy Logic" difficulty="Easy">
-    <text>What is the primary function of a "Knowledge Base" in a fuzzy logic system?</text>
-    <option key="A" correct="false">To store and retrieve large volumes of raw data.</option>
-    <option key="B" correct="false">To define the physical architecture of the system.</option>
-    <option key="C" correct="true">To contain a set of fuzzy rules that describe the relationships between inputs and outputs.</option>
-    <option key="D" correct="false">To manage the user interface.</option>
+    <text>What is the role of the knowledge base in a fuzzy logic system?</text>
+    <option key="A" correct="false">User interface management</option>
+    <option key="B" correct="false">Hardware configuration</option>
+    <option key="C" correct="true">Storing fuzzy rules linking inputs and outputs</option>
+    <option key="D" correct="false">Data encryption</option>
     <explanation>Answer taken from Quiz1 PDF (selected option C).</explanation>
   </question>
 
   <question id="9" topic="Fuzzy Logic" difficulty="Easy">
-    <text>Fuzzy logic has found practical applications in which of the following areas?</text>
-    <option key="A" correct="false">Theoretical computer science research only</option>
-    <option key="B" correct="false">Database management</option>
-    <option key="C" correct="true">Control systems in appliances like washing machines and air conditioners</option>
-    <option key="D" correct="false">Cryptography</option>
-    <explanation>Answer taken from Quiz1 PDF (selected option C).</explanation>
+    <text>Which area represents a common real world application of fuzzy logic?</text>
+    <option key="A" correct="false">Pure theoretical computing</option>
+    <option key="B" correct="true">Control systems in home appliances</option>
+    <option key="C" correct="false">Cryptographic key generation</option>
+    <option key="D" correct="false">Relational database indexing</option>
+    <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
   </question>
 
   <question id="10" topic="Requirements" difficulty="Easy">
-    <text>What is the potential negative outcome if "requirements leakage" occurs in a software project?</text>
-    <option key="A" correct="false">The software might be delivered ahead of schedule.</option>
-    <option key="B" correct="false">Project costs might be significantly reduced.</option>
-    <option key="C" correct="true">The project scope could expand uncontrollably, leading to delays and budget overruns.</option>
-    <option key="D" correct="false">The software might become overly simplified.</option>
+    <text>What is a major risk of requirements leakage in software projects?</text>
+    <option key="A" correct="false">Early delivery</option>
+    <option key="B" correct="false">Lower development cost</option>
+    <option key="C" correct="true">Uncontrolled scope growth causing delays and overruns</option>
+    <option key="D" correct="false">Reduced system functionality</option>
     <explanation>Answer taken from Quiz1 PDF (selected option C).</explanation>
   </question>
 
   <question id="11" topic="Requirements" difficulty="Easy">
-    <text>Why is it beneficial to involve customers in the process of managing project scope?</text>
-    <option key="A" correct="false">To transfer the burden of decision-making.</option>
-    <option key="B" correct="true">To promote a sense of ownership of the final product and increase satisfaction.</option>
-    <option key="C" correct="false">To avoid any contractual obligations.</option>
-    <option key="D" correct="false">To focus only on easy features.</option>
+    <text>Why should customers be involved in managing project scope?</text>
+    <option key="A" correct="false">To eliminate contracts</option>
+    <option key="B" correct="true">To increase ownership and satisfaction</option>
+    <option key="C" correct="false">To reduce documentation</option>
+    <option key="D" correct="false">To focus only on simple features</option>
     <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
   </question>
 
   <question id="12" topic="Software Development" difficulty="Easy">
-    <text>Which of these is NOT a source of design constraints in software development, as outlined by the sources?</text>
-    <option key="A" correct="true">User interface preferences</option>
-    <option key="B" correct="false">Restrictions on design options due to technical limitations</option>
-    <option key="C" correct="false">Conditions imposed on the development process</option>
-    <option key="D" correct="false">Regulations and imposed standards</option>
+    <text>Which item is NOT considered a design constraint in software development?</text>
+    <option key="A" correct="true">User interface personal preference</option>
+    <option key="B" correct="false">Technical limitations</option>
+    <option key="C" correct="false">Process imposed conditions</option>
+    <option key="D" correct="false">Regulations and standards</option>
     <explanation>Answer taken from Quiz1 PDF (selected option A).</explanation>
   </question>
 
   <question id="13" topic="Software Project Management" difficulty="Easy">
-    <text>"Estimating cost and effort" falls under the category of people management skills within the framework of software project management.</text>
+    <text>Estimating cost and effort is classified as a people management skill.</text>
     <option key="A" correct="false">True</option>
     <option key="B" correct="true">False</option>
+    <option key="C" correct="false">Not given</option>
+    <option key="D" correct="false">Depends on methodology</option>
     <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
   </question>
 
   <question id="14" topic="Software Project Management" difficulty="Easy">
-    <text>The main objective of software project management is to create an environment where a group of engineers can collaborate productively to achieve the successful completion of a software project.</text>
-    <option key="A" correct="true">True</option>
-    <option key="B" correct="false">False</option>
-    <explanation>Answer taken from Quiz1 PDF (selected option A).</explanation>
-  </question>
-
-  <question id="15" topic="Software Development" difficulty="Easy">
-    <text>A "Vision Document" in software development should contain comprehensive technical specifications and examples of code.</text>
+    <text>Adding more resources to a software project always shortens its completion time.</text>
     <option key="A" correct="false">True</option>
     <option key="B" correct="true">False</option>
+    <option key="C" correct="false">Not given</option>
+    <option key="D" correct="false">Only for small projects</option>
     <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
   </question>
 
-  <question id="16" topic="Software Development" difficulty="Easy">
-    <text>Design constraints within software development are primarily concerned with the visual aesthetics of the user interface.</text>
-    <option key="A" correct="false">True</option>
-    <option key="B" correct="true">False</option>
-    <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
-  </question>
-
-  <question id="17" topic="Software Project Management" difficulty="Easy">
-    <text>According to the sources, allocating more resources to a software project consistently results in quicker project completion.</text>
-    <option key="A" correct="false">True</option>
-    <option key="B" correct="true">False</option>
-    <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
-  </question>
-
-  <question id="18" topic="Requirements" difficulty="Easy">
-    <text>The term "Requirements Leakage" describes the situation where programmers, without proper authorisation, add new features and requirements directly to the code on behalf of the users.</text>
-    <option key="A" correct="true">True</option>
-    <option key="B" correct="false">False</option>
-    <explanation>Answer taken from Quiz1 PDF (selected option A).</explanation>
-  </question>
-
-  <question id="19" topic="Fuzzy Logic" difficulty="Easy">
-    <text>In the realm of fuzzy logic, an element can only be assigned a membership degree of 0 or 1 within a fuzzy set.</text>
-    <option key="A" correct="false">True</option>
-    <option key="B" correct="true">False</option>
-    <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
-  </question>
-
-  <question id="20" topic="Fuzzy Logic" difficulty="Easy">
-    <text>Based on the provided sensor detection levels, what is the value of the Union operation (μ S1 U S2) at Gain setting 20?</text>
-    <option key="A" correct="false">0.35</option>
-    <option key="B" correct="true">0.5</option>
-    <option key="C" correct="false">0.85</option>
-    <option key="D" correct="false">0.15</option>
-    <explanation>Answer taken from Quiz1 PDF (selected option B).</explanation>
-  </question>
 </quiz>
