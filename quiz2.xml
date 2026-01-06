@@ -172,13 +172,5 @@
 <explanation>Correct answer per PDF is False (option B).</explanation>
 </question>
 
-<question id="20" topic="Fuzzy Logic" difficulty="Easy">
-<text>Based on the provided sensor detection levels, what is the value of the Union operation (μ S1 U S2) at Gain setting 20?</text>
-<option key="A" correct="false">0.35</option>
-<option key="B" correct="true">0.5</option>
-<option key="C" correct="false">0.85</option>
-<option key="D" correct="false">0.15</option>
-<explanation>Correct answer per PDF is 0.5 (option B).</explanation>
-</question>
 
 </quiz>
